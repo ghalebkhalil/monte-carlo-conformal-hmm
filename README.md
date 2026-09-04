@@ -25,7 +25,7 @@ $$
 =
 \frac{1}{M}
 \sum_{m=1}^{M}
-\mathbf{1}\{S(\Pi_m) \geq S(I)\}.
+\mathbf{1}\{S(\Pi_m) \geq S(I)\},
 $$
 
 and studies the resulting statistical-computational tradeoff.
@@ -72,12 +72,12 @@ The method was evaluated on simulated discrete HMMs and on the HAPT smartphone a
 
 Key findings:
 
-- Monte Carlo score error decreases approximately at the expected \(M^{-1/2}\) rate.
-- Prediction-set agreement with exhaustive enumeration improves as \(M\) grows.
+- Monte Carlo score error decreases approximately at the expected $M^{-1/2}$ rate.
+- Prediction-set agreement with exhaustive enumeration improves as $M$ grows.
 - In permutation-heavy simulations, Monte Carlo achieved up to **~54× runtime speedup** over exhaustive enumeration.
-- On real HAPT data, conformal-score MAE decreased from **0.044 at \(M=25\)** to **0.008 at \(M=1000\)**.
+- On real HAPT data, conformal-score MAE decreased from **0.044 at $M=25$** to **0.008 at $M=1000$**.
 - Exact prediction-set agreement on HAPT increased from approximately **69% to 91%**.
-- Computational gains are largest when \(M\) is substantially smaller than the exhaustive permutation workload.
+- Computational gains are largest when $M$ is substantially smaller than the exhaustive permutation workload.
 
 ## Selected Results
 
