@@ -2,7 +2,9 @@
 
 A computational study of Monte Carlo approximation for exhaustive block-permutation conformal prediction in discrete Hidden Markov Models.
 
-**Project report:** [PDF](report/monte_carlo_conformal_hmm.pdf)
+## Project Report
+
+📄 [Read the full project report](monte_carlo_conformal_hmm_report.pdf)
 
 ## Motivation
 
